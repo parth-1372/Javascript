@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+}
+.item-centre{
+    align-items: center;
+}
+.justify-centre{
+    justify-content: center;
+}
+.semibold{
+    font-weight: bolder;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
+.mx-2{
+    margin: 10px;
+    padding: 5px;
+}
+.s1{
+    
+    height: 122vh;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}

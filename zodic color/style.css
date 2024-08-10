@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 30px 30px 30px;
+    padding: 10px;
+    border-radius: 40px;
+   color: black;
+    background-color: aqua;
+}
+select,button{
+    cursor: pointer;
+    color: black;
+    margin: 10px 30px 30px 30px;
+    padding: 10px;
+    border-radius: 40px;
+    font: 100 1.2rem sans-serif ;
+    background-color: aqua;
+    border: none;
+}
+button{
+    background-color: cornflowerblue;
+}

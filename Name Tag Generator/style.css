@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(88, 82, 82);
+}
+
+.container {
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: burlywood;
+}
+
+.tag {
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 30%;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tags{
+    display: flex;
+    border: 2px solid white;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+input{
+    padding: 10px;
+    margin: 0px 20px 0px 20px;
+    border: 2px solid  black;
+    width: 80%;
+    box-sizing: border-box;
+    font: 100 1.25rem "Lucida Sans";
+}
+button{
+    padding: 10px;
+    font: 100 1rem "Lucida Sans";
+    border-radius: 40px;
+    cursor: pointer;
+}
+button:hover{
+    animation-name: inherit;
+    background-color: chocolate;
+     font: 100 0.9rem "Lucida Sans";
+}
